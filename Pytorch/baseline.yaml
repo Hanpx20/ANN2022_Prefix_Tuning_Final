@@ -1,0 +1,18 @@
+dataset: webnlg
+pretrained: gpt2-medium
+
+prompt_template: none
+
+save_ckpt: ./temp.pth
+batch_size: 5
+max_epoch: 5
+lr: 5e-5
+max_length: 256
+warmup_steps: 0
+non_prefix_layers: []
+output_dir: ./outputs/output.txt
+
+decode_strategy: top-p
+temperature: 1.0
+top_p: 0.9
+top_k: 40

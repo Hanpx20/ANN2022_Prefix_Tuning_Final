@@ -1,0 +1,16 @@
+dataset: webnlg
+pretrained: gpt2-medium
+
+prompt_template: none
+
+save_ckpt: ./webnlg_finetune.pkt
+batch_size: 5
+max_epoch: 5
+lr: 5e-5
+max_length: 100
+warmup_steps: 50
+
+decode_strategy: top-p
+temperature: 0.9
+top_p: 0.9
+top_k: 40
