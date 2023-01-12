@@ -2,13 +2,11 @@
 
 ### 介绍
 
----
 
 清华大学2022人工神经网络课程小组作业仓库。本仓库利用jittor框架复现了论文 **[Prefix-tuning: Optimizing continuous prompts for generation](https://arxiv.org/abs/2101.00190)** 的实验结果。仓库同时提供了pytorch和jittor版的代码。请先进入`./Pytorch`或`./Jittor`中的一个并执行下面步骤。
 
 ### Quick Start
 
----
 
 **环境配置：**
 
@@ -30,7 +28,6 @@ bash train_prefix.sh
 
 ### Usage
 
----
 
 baseline.yaml提供了以下可调参数：
 
